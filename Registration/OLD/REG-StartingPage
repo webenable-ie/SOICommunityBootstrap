@@ -1,0 +1,69 @@
+<h2><span class="uk-icon-info-circle">&nbsp;</span>Before you begin:</h2>
+<p>Thank you for taking the time to apply to become a Special Olympics Ireland volunteer. As the safeguarding of Special Olympics athletes is paramount, all those applying to become volunteers, whether known to the organisation or not, are required to undertake
+  a number of steps to facilitate Special Olympics Ireland to assess volunteer suitability and to comply with legislation and safeguarding best practice. For this reason, you are asked to take time to read all application instructions carefully and comply
+  with same within the timeframe advised.</p>
+<div class="uk-alert uk-alert-danger">No individual can engage in volunteer activities within a club or at an event with Special Olympics Ireland until they have been fully registered.</div>
+<p>Elements of the registration process will differ according to the jurisdiction (NI or ROI) you are located in and age category. The following gives a summary overview of the generic steps across the two jurisdictions.</p>
+<div class="uk-alert uk-alert-warning">More detailed instructions are given as you move through the process. Please read them carefully. Once you begin the registration process, you will have 20 days to complete it which includes returning any required documentation back to Special Olympics
+  Ireland.</div>
+<ul class="uk-grid uk-grid-medium uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}" data-uk-grid-margin="">
+  <li class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2">
+    <div class="uk-panel uk-panel-box">
+      <h3><span class="uk-icon-pencil-square-o">&nbsp;</span>Complete your online volunteer application</h3>
+      <p>All applications to volunteer with Special Olympics Ireland must be made online in two stages:</p>
+      <ul class="uk-list uk-list-space">
+        <li>1. The first stage <strong>registers personal details</strong></li>
+        <li>2. The second stage captures <strong>all other details related to your application</strong></li>
+      </ul>
+      <p>Make sure you have a valid email address unique to you.</p>
+    </div>
+  </li>
+  <li class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2">
+    <div class="uk-panel uk-panel-box">
+      <h3><span class="uk-icon-book">&nbsp;</span>Training</h3>
+      <p>Please check your email after you have registered your personal details online. You will receive a <strong>Next Steps</strong> email from us with a link to training and further instructions within 2 working days.</p>
+      <p class="uk-text-right"><a href="#training" data-uk-modal="">Read more...</a></p>
+      <!-- This is the modal for training -->
+      <div id="training" class="uk-modal">
+        <div class="uk-modal-dialog"><a class="uk-modal-close uk-close">&nbsp;</a>
+          <div class="uk-modal-header">
+            <h2>Special Olympics Volunteer Training</h2>
+          </div>
+          <p>This training is essential as it contains important information on safeguarding and supporting our athletes and gives you a general understanding of the organisation so that you know what is expected of you as a Special Olympics Ireland volunteer.</p>
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>
+<ul class="uk-grid uk-grid-medium uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}" data-uk-grid-margin="">
+  <li class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2">
+    <div class="uk-panel uk-panel-box">
+      <h3><span class="uk-icon-eye">&nbsp;</span>Police Background check</h3>
+      <p>All applicants over 16 years old in Northern Ireland and the Republic of Ireland are required to go through the relevant vetting process according to jurisdiction. Please read instructions carefully as you move through the registration process</p>
+    </div>
+  </li>
+  <li class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2">
+    <div class="uk-panel uk-panel-box">
+      <h3><span class="uk-icon-print">&nbsp;</span>Access to a printer</h3>
+      <p>At different stages throughout the registration process, you will be required to print certain documents to sign and return to Special Olympics Ireland. You may also be advised to print certain pages to retain for your own records.</p>
+    </div>
+  </li>
+</ul>
+<ul class="uk-grid uk-grid-medium" data-uk-grid-margin="">
+  <li class="uk-width-1-1 uk-margin-large-bottom">
+    <div class="uk-panel uk-panel-box">
+      <h3><span class="uk-icon-mouse-pointer">&nbsp;</span>Click on the button</h3>
+      <p>To access specific instructions and begin your application, click on either the Republic of Ireland button or the Northern Ireland button below depending on where you wish to volunteer.</p>
+    </div>
+  </li>
+</ul>
+<!--<div class="uk-alert uk-alert-danger">We are temporarily unable to accept volunteer applications from <strong>Northern Ireland</strong> at this time. Please contact Eliza Downey at <a href="mailto:eliza.downey@specialolympics.ie">eliza.downey@specialolympics.ie</a> if you are interested in applying to become a volunteer in <strong>Northern Ireland</strong> and we will contact you when the application process re-opens</div>-->
+<table border="0" style="margin-right: auto; margin-left: auto;">
+  <tbody>
+    <tr>
+      <td><a class="uk-button uk-button-danger uk-button-large" href="target=&amp;pid=535&amp;did=0&amp;tab=0">Republic of Ireland</a></td>
+      <td>&nbsp;&nbsp;</td>
+      <td><a id="niButton" class="uk-button uk-button-primary uk-button-large" href="target=&amp;pid=552&amp;did=0&amp;tab=0">Northern Ireland</a></td>
+    </tr>
+  </tbody>
+</table>

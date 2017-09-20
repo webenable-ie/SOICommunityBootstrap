@@ -1,0 +1,214 @@
+/********   Volunteer Opportunity ********/
+
+.BBVolOpJobDetailRow
+{
+
+}
+
+.BBVolOpJobDetailButtonRow
+{
+}
+
+.BBVolOpSignUpInstructions
+{
+   /* System Defaults */
+   font-style: italic;
+}
+
+.BBVolOpSignUpRow
+{
+}
+
+.BBVolOpSignUpButtonRow
+{
+}
+
+.BBVolOpSignUpSeparator
+{
+}
+
+.BBVolOpSearchButtonRow
+{
+}
+
+.BBVolOpJobListPageControlCell
+{
+   /* System Defaults */
+   text-align: right;
+}
+
+.BBVolOpBackToListCell
+{
+   /* System Defaults */
+   text-align: right;
+   white-space: nowrap;
+}
+
+.BBVolOpJobDetailCaption, .VolunteerOpJobDetailCaption
+{
+   /* System Defaults */
+   width: 20%;
+   color: #40bf40;
+   font-weight: bold;
+}
+
+.BBVolOpSignUpCaption
+{
+}
+
+.BBVolOpSignUpControlCell
+{
+}
+
+.BBVolOpJobDetailButtonCell
+{
+   /* System Defaults */
+   text-align: center;
+}
+
+.BBVolOpSignUpButtonCell
+{
+   /* System Defaults */
+   text-align: center;
+}
+
+.BBVolOpSearchButtonCell
+{
+   /* System Defaults */
+   text-align: center;
+}
+
+.BBVolOpJobDetailFieldValue
+{
+}
+
+.BBVolOpSignUpSelectList
+{
+}
+
+.BBVolOpSubmitButton
+{
+}
+
+.BBVolOpJobListTable
+{
+   /* System Defaults */
+   width: 100%;
+}
+
+.BBVolOpJobListTable td
+{
+   padding:5px 5px;
+
+}
+
+td.BBVolOpInstructions, td#tdSearchValidationSummary
+{
+  font-style: italic;
+  text-align: center;
+  padding: 0px;
+}
+
+.BBVolOpJobDetailTable
+{
+   /* System Defaults */
+   width: 100%;
+}
+
+.BBVolOpJobDetailTable td
+{
+  padding:15px 5px;
+}
+
+.BBVolOpSignUpTable
+{
+   /* System Defaults */
+   width: 100%;
+}
+
+.BBVolOpSignUpChecklistTable
+{
+}
+
+.BBVolOpSignUpTextArea
+{
+}
+
+.BBVolOpSignUpTextBox
+{
+}
+
+.BBVolOpJobListTitle
+{
+  color: #ed1c24;
+  font-size: 23px;
+}
+
+.BBVolOpJobDetailTitle
+{
+  color: #ed1c24;
+  font-size: 23px;
+}
+
+.BBVolOpSignUpTitle
+{
+}
+
+.BBVolOpSignUpValidationSummary
+{
+}
+
+.BBVolOpJobListEvenRow
+{
+  padding: 5px;
+}
+
+.BBVolOpSignUpChecklistTableEvenRow
+{
+}
+
+.BBVolOpJobListHeader
+{
+  color: #ed1c24;
+  font-size: 18px;
+  text-align: center;
+}
+
+.BBVolOpSignUpChecklistTableHeader
+{
+}
+
+.BBVolOpJobList
+{
+   /* System Defaults */
+   width: 100%;
+}
+
+.BBVolOpJobListOddRow
+{
+  padding: 5px;
+}
+
+.BBVolOpSignUpChecklistTableOddRow
+{
+}
+
+.BBVolOpLink:link
+{
+  color: #ed1c24;
+}
+.BBVolOpLink:active
+{
+}
+
+.BBVolOpLink:hover
+{
+  color: #007a99
+}
+
+.BBVolOpLink:visited
+{
+  color: #ed1c24;
+}
+
+/***** End Volunteer Opportunity styles *****/
