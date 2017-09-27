@@ -1,0 +1,455 @@
+Help
+UIKIK_SOICustom(Edit style sheet)
+Style sheet text editor
+The text editor displays the CSS styles for your web pages and allows you to customize colors, fonts, and other properties. To expose CSS classes for particular parts or for the default classes that appear in multiple places, click Insert CSS selectors. You can add class names only or class names with their default styles.
+ Insert CSS selectors
+
+
+body {
+    background-color: #fff;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+header, footer {
+    position: relative;
+    font-size: 14px;
+    color: rgba(200,200,191,0.75);
+    background-color: #383838;
+    box-shadow: 0 1.5px 4px rgba(0,0,0,0.24),0 1.5px 6px rgba(0,0,0,0.12);
+}
+
+h1, h2, h3, h4 {margin-bottom: 15px;}
+h1 {color: #ED1C24;}
+
+h2, h3, h4 {color: #30ADD1}
+
+h4 {font-weight: bold;}
+
+p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.LoginLink {
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: underline;
+    color: #30ADD1;
+    line-height: 30px;
+}
+
+.uk-form input {font-size: 14px;}
+.uk-form input,.uk-form select,.uk-form textarea {font-size: 14px;}
+.uk-form textarea {height: 100px;}
+
+.icon-blue {color: #EEEEEE;}
+
+/* FOOTER STYLES*/
+
+footer {border-top: #30ADD1 3px solid;}
+footer h2, footer p, footer a {
+    color: #666;
+    background-color: #383838;
+    text-shadow: 0px 1px 0px rgba(255,255,255,.5); /* 50% white from bottom */
+}
+
+footer a:hover{color: #333;
+    background-color: #383838;
+    text-shadow: 0px 1px 0px rgba(255,255,255,.5); /* 50% white from bottom */}
+
+
+/* CUSTOM MENU STYLES*/
+.uk-navbar {position: relative;}
+.uk-navbar .uk-container {
+    position: relative;
+}
+
+.uk-navbar {
+    background: #303030;
+    color: #78787C;
+    border: none;
+    background-image: none;
+}
+
+.uk-navbar-nav>li>a {
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 44px;
+    padding: 0 20px;
+    line-height: 44px;
+    color: #78787C;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+.uk-navbar .donate {
+    position: absolute;
+    height: 56px;
+    font-size: 22px;
+    text-transform: uppercase;
+    top: -5px;
+    right: 20px;
+    z-index: 960;
+}
+
+.logo-container .logo {
+    max-height: 45px;
+}
+/* CUSTOM PANELS STYLES*/
+
+.uk-panel-box>h3{
+    color: #30ADD1;
+}
+
+#registerBtn>.uk-button-large {
+    min-height: 60px;
+    font-size: 30px;
+  }
+
+div#registerBtn.uk-vertical-align-middle {
+  font-size: 100%;
+}
+
+/********   User Login ********/
+
+.LoginSectionHeader
+{
+   /* System Defaults */
+   font-style:italic;
+   font-weight:bold;
+   text-align:left;
+   background-color: #eeeeee;
+   padding: 2px 2px 2px 4px;
+   margin: 0 10px 0 10px;
+   color:black;
+}
+
+.UserModalPartDialog div
+{
+}
+
+.BBNewRegCaptchaCaption
+{
+   /* System Defaults */
+   float: left;
+   clear: left;
+   width: 125px;
+   text-align: right;
+   padding-right: 5px;
+   padding-left: 10px;
+}
+
+.BBNewRegCaptchaResponse
+{
+   /* System Defaults */
+   width:150px;
+   float:none;
+}
+
+.BBNewRegCaptchaControlCell
+{
+   /* System Defaults */
+   clear:none;
+   margin-left:0px;
+   margin-top:3px;
+   white-space:nowrap;
+}
+
+.BBNewRegCaptchaActionLinkContainer
+{
+   /* System Defaults */
+   text-align: right;
+}
+
+#trRegistrationRequest.BBFormRequiredFieldMarker
+{
+   /* System Defaults */
+   color:red;
+   font-size:medium;
+   font-weight:bolder;
+   text-align:left;
+   vertical-align:middle;
+   width:65px;
+}
+
+.LoginFormJanrainContainer
+{
+}
+
+.LoginFieldCaption
+{
+   /* System Defaults */
+   padding-right:8px;
+   width:130px;
+   font-size: 16px;
+}
+
+.LoginFieldMessage
+{
+   /* System Defaults */
+   FONT-SIZE: 8pt;
+   COLOR: gray;
+   FONT-FAMILY: Arial Narrow;
+}
+
+.LoginFormCheckList
+{
+}
+
+.LoginFormCheckListContainer
+{
+}
+
+.LoginFormErrorMessage
+{
+}
+
+.LoginFormSelectList
+{
+    display: inline;
+    width: 80px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.LoginFormSubmitButton
+{
+}
+
+.LoginFormTable
+{
+   /* System Defaults */
+   border:0 none;
+   width:100%;
+}
+
+.LoginFormTextArea
+{
+  display: block;
+    width: 250px;
+    height: 100px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.LoginFormTextbox
+{
+    display: block;
+    width: 250px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.LoginFormTextboxNarrow
+{
+}
+
+.LoginFormTitle
+{
+   /* System Defaults */
+   Padding-right:2px;
+   Padding-top:6px;
+   Padding-bottom:6px;
+   font-family:verdana, arial;
+   color:#2B3b76;
+   font-size: 14px;
+   text-align:left;
+   border-bottom:none;
+}
+
+.LoginFormValidatorSummary
+{ font-size: 14px;
+}
+
+.LoginFormNormalMessage
+{
+}
+.LoginFormTable tr {
+    margin-bottom:20px;
+}
+
+.BBFieldControlCell {
+    padding-bottom:12px;
+}
+
+#PC2841_dpFuzzyBirthDate_ddDay, #PC2841_dpFuzzyBirthDate_ddMonth, #PC2841_dpFuzzyBirthDate_ddYear, #PC2841_ddTitle {
+width: 80px; display:inline;
+}
+
+#spnFuzzyDateControl {width:100%;}
+.taLeft {padding-bottom: 12px;}
+.taCenter, .LoginFormTitle {
+    margin-left: auto; margin-right: auto;
+}
+
+#PC2869_AddressCtl_dd_Country, #PC2869_AddressCtl_dd_CountyUK, #PC2844_AddressCtl_dd_Country, #PC2844_AddressCtl_dd_CountyUK, #PC2897_AddressCtl_dd_Country, #PC2897_AddressCtl_dd_CountyUK {width: 250px;}
+
+#pane2_ctl01_ctl36_cbRememberLogin{
+    margin: 5px;
+}
+
+#PC2580_tbMain {margin-top: 20px;}
+
+/*login table to be centered*/
+#PC2844_tbl {vertical-align: center;}
+/***** End User Login styles *****/
+
+/*Smart Thing Profile dropdown height*/
+.Ev2_RegistrantContent input[type="text"], .BBFormSelectList {
+    height: 34px;
+}
+
+/*Right Margin to separate Checkbox from label*/
+
+#PC2844_cbRememberLogin {margin-right: 20px;}
+
+
+.BBFormTextbox {
+    width: 100%;
+}
+
+.BBFormTable.ProfileFormTable input {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    zoom: 1.5;
+}
+
+.TransactionManagerGrid {
+    width: 750px;
+    border-collapse: collapse;
+    border: 1px solid #AAA;
+    margin-top: 20px;
+}
+
+/*SMART THING CSS CLASSES*/
+
+.row {
+    margin-bottom: 5px;
+}
+
+.h1 {
+    margin-bottom: 20px;
+}
+
+.intro-block {
+    margin-bottom: 30px;
+}
+
+.stform-header-minor .h2 {
+    margin-bottom: 20px;
+}
+
+.stform-block-major {
+    margin: 0;
+}
+
+.stform-content-cell {
+    margin-bottom: 0px;
+}
+
+.stform-label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+.stform-label-cell {
+    margin: 0;
+
+.stform-requiredstar {color: red;}
+
+.stform-submit {
+    color: #fff;
+    background-color: #6fac34;
+    border-color: #357ebd;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.uk-icon-small{
+    color: #30ADD1;
+    cursor: help;
+}
+
+#PC2491_MainTable {min-width: 600px;}
+
+.BBFormDisplaySequenceMapContentContainer, .BBFormDisplaySequenceMapContent {
+  width: 50%;
+}
+
+select#PC2897_dpFuzzyBirthDate_ddDay, #PC2897_dpFuzzyBirthDate_ddMonth, #PC2897_dpFuzzyBirthDate_ddYear {
+display: inline;
+width: 30%;
+}
