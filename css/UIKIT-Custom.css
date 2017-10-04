@@ -73,7 +73,7 @@ footer a:hover{color: #333;
 
 .uk-navbar {
     background: #303030;
-    color: #78787C;
+    color: #DDDDDD;
     border: none;
     background-image: none;
 }
@@ -85,12 +85,16 @@ footer a:hover{color: #333;
     height: 44px;
     padding: 0 20px;
     line-height: 44px;
-    color: #78787C;
+    color: #DDDDDD;
     font-size: 16px;
     font-family: "Ubuntu", sans-serif;
     font-weight: normal;
     text-transform: uppercase;
     text-shadow: none;
+}
+
+.uk-dropdown {
+  font-size: 14px;
 }
 
 .uk-navbar .donate {
@@ -309,6 +313,7 @@ div#registerBtn.uk-vertical-align-middle {
 
 .LoginFormNormalMessage
 {
+font-size: 1OO%;
 }
 .LoginFormTable tr {
     margin-bottom:20px;
